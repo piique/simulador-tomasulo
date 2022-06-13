@@ -1,9 +1,20 @@
 let mock0 = [
   {
-    operation: "AND",
+    operation: "ADD",
     firstRegister: "R1",
     secondRegister: "R2",
     thirdRegister: "R3",
+  },
+  {
+    operation: "ADD",
+    firstRegister: "R2",
+    secondRegister: "R1",
+    thirdRegister: "R4",
+  },
+  {
+    operation: "MOV",
+    firstRegister: "R8",
+    secondRegister: "R9",
   },
   {
     operation: "ADD",
@@ -12,51 +23,41 @@ let mock0 = [
     thirdRegister: "R2",
   },
   {
-    operation: "CMN",
-    firstRegister: "R6",
-    secondRegister: "R7",
-    thirdRegister: "R8",
-  },
-  {
-    operation: "CMP",
-    firstRegister: "R9",
-    secondRegister: "R10",
-    thirdRegister: "R11",
+    operation: "MUL",
+    firstRegister: "R4",
+    secondRegister: "R2",
+    thirdRegister: "R5",
   },
   {
     operation: "BEQ",
-    firstRegister: "R12",
-    secondRegister: "R1",
+    firstRegister: "R1",
+    secondRegister: "R2",
     thirdRegister: "#2",
-    fourthRegister: false,
+    fourthRegister: true,
   },
   {
     operation: "SUB",
+    firstRegister: "R8",
+    secondRegister: "R2",
+    thirdRegister: "R1"
+  },
+  {
+    operation: "ADD",
+    firstRegister: "R2",
+    secondRegister: "R1",
+    thirdRegister: R3,
+  },
+  {
+    operation: "SUB",
+    firstRegister: "R1",
+    secondRegister: "R4",
+    thirdRegister: "R5",
+  },
+  {
+    operation: "ADD",
     firstRegister: "R3",
-    secondRegister: "R1",
-    thirdRegister: "R2",
-  },
-  {
-    operation: "LDR",
-    firstRegister: "R11",
-    secondRegister: "R1",
-  },
-  {
-    operation: "MOV",
-    firstRegister: "R6",
-    secondRegister: "R8",
-  },
-  {
-    operation: "MUL",
-    firstRegister: "R3",
-    secondRegister: "R1",
-    thirdRegister: "R2",
-  },
-  {
-    operation: "ORR",
-    firstRegister: "R4",
-    secondRegister: "R5",
-    thirdRegister: "R6",
+    secondRegister: "R7",
+    thirdRegister: "R1",
   },
 ];
 
