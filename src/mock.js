@@ -45,7 +45,7 @@ let mock0 = [
     operation: "ADD",
     firstRegister: "R2",
     secondRegister: "R1",
-    thirdRegister: R3,
+    thirdRegister: "R3",
   },
   {
     operation: "SUB",
