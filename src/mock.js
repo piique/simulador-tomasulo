@@ -8,8 +8,14 @@ let mock0 = [
   {
     operation: "ADD",
     firstRegister: "R2",
-    secondRegister: "R1",
-    thirdRegister: "R4",
+    secondRegister: "R4",
+    thirdRegister: "R5",
+  },
+  {
+    operation: "SUB",
+    firstRegister: "R4",
+    secondRegister: "R2",
+    thirdRegister: "R1",
   },
   {
     operation: "MOV",
@@ -52,12 +58,6 @@ let mock0 = [
     firstRegister: "R1",
     secondRegister: "R4",
     thirdRegister: "R5",
-  },
-  {
-    operation: "ADD",
-    firstRegister: "R3",
-    secondRegister: "R7",
-    thirdRegister: "R1",
   },
 ];
 
