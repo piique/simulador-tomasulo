@@ -23,6 +23,13 @@ let mock0 = [
     secondRegister: "R9",
   },
   {
+    operation: "BEQ",
+    firstRegister: "R1",
+    secondRegister: "R2",
+    thirdRegister: "#2",
+    fourthRegister: true,
+  },
+  {
     operation: "ADD",
     firstRegister: "R3",
     secondRegister: "R1",
@@ -33,13 +40,6 @@ let mock0 = [
     firstRegister: "R4",
     secondRegister: "R2",
     thirdRegister: "R5",
-  },
-  {
-    operation: "BEQ",
-    firstRegister: "R1",
-    secondRegister: "R2",
-    thirdRegister: "#2",
-    fourthRegister: true,
   },
   {
     operation: "SUB",
