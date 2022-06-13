@@ -7,15 +7,15 @@ let mock0 = [
   },
   {
     operation: "ADD",
-    firstRegister: "R2",
-    secondRegister: "R4",
-    thirdRegister: "R5",
+    firstRegister: "R4",
+    secondRegister: "R5",
+    thirdRegister: "R6",
   },
   {
     operation: "SUB",
-    firstRegister: "R4",
-    secondRegister: "R2",
-    thirdRegister: "R1",
+    firstRegister: "R7",
+    secondRegister: "R1",
+    thirdRegister: "R4",
   },
   {
     operation: "MOV",
